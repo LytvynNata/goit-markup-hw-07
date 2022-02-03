@@ -139,7 +139,7 @@ body {
   margin-left: auto;
 }
 
-.contacts .item + .item {
+.contacts__item--space {
   margin-left: 50px;
 }
 .contacts__link {
