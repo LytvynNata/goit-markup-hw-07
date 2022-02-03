@@ -139,8 +139,8 @@ body {
   margin-left: auto;
 }
 
-.contacts__item--space {
-  margin-left: 50px;
+.contacts__item--afterspace {
+  margin-right: 50px;
 }
 .contacts__link {
   display: flex;
