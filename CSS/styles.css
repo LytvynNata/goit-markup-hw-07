@@ -547,24 +547,24 @@ textarea {
 }
 
 /* -----------------Activity---------------------- */
-.job-example {
+.activity {
   display: flex;
 }
 
-.job-example .item {
+.activity__item {
   width: 370px;
   position: relative;
   /* outline: 1px solid red; */
 }
 
-.job-example .item + .item {
+.activity__item + .activity__item {
   margin-left: 30px;
 }
 
-*/ .overlay-name {
+/* .overlay-name {
   position: relative;
-}
-.item .title-text {
+} */
+.activity__text {
   position: absolute;
   bottom: 0;
 
