@@ -582,57 +582,54 @@ textarea {
 
 /*-----------------------Team-----------------------------------*/
 
-.team.section {
+.team__section {
   background-color: #f5f4fa;
 }
-.team-list .name {
+.caption__name {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
 
-.team-list .profession {
+.caption__profession {
   font-size: 16px;
   line-height: 1.19;
 
   margin-top: 10px;
 }
 
-.team-list {
+.team {
   display: flex;
 }
 
-.team-list .item {
+.team__item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.team-list .item + .item {
+.team__item + .team__item {
   margin-left: 30px;
 }
 
-.team-list .name,
-.team-list .profession {
-  text-align: center;
-}
-
-.team-list .caption {
+.caption {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #ffffff;
+  text-align: center;
 }
-.sn-contacts {
+
+.socialnet {
   display: flex;
   justify-content: center;
   margin-top: 16px;
 }
 
-.sn-contacts .sn-item + .sn-item {
+.socialnet__list + .socialnet__list {
   margin-left: 10px;
 }
 
-.sn-link {
+.socialnet__link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -646,12 +643,12 @@ textarea {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.sn-icon {
+.socialnet__icon {
   fill: currentColor;
 }
 
-.sn-link:hover,
-.sn-link:focus {
+.socialnet__link:hover,
+.socialnet__link:focus {
   color: #ffffff;
   background-color: var(--accent-color);
 }
