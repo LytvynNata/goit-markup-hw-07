@@ -39,6 +39,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -88,18 +89,6 @@ body {
   border: transparent;
 }
 
-.hero__button {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-
-  padding: 11px 32px;
-  min-width: 200px;
-  text-align: center;
-}
 
 /* --------------------Header--------------------------- */
 
@@ -482,6 +471,18 @@ textarea {
 
   margin-top: 0;
   margin-bottom: 30px;
+}
+.hero__button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  padding: 11px 32px;
+  min-width: 200px;
+  text-align: center;
 }
 
 /* --------------------Features------------------- */
