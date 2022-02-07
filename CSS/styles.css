@@ -548,9 +548,6 @@ textarea {
   margin-left: 30px;
 }
 
-/* .overlay-name {
-  position: relative;
-} */
 .activity__text {
   position: absolute;
   bottom: 0;
@@ -599,12 +596,7 @@ textarea {
   margin-left: 30px;
 }
 
-.caption {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #ffffff;
-  text-align: center;
-}
+
 
 .socialnetworks {
   display: flex;
@@ -806,6 +798,8 @@ textarea {
 /* -----------------Footer------------------- */
 .footer {
   background-color: #2f303a;
+    padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer__container {
   display: flex;
@@ -833,10 +827,6 @@ textarea {
 .address__link:hover,
 .address__link:focus {
   color: var(--accent-color);
-}
-.footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .address__item {
