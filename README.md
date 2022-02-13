@@ -1,1 +1,1 @@
-# goit-markup-hw-05
+Adaptive and responsive

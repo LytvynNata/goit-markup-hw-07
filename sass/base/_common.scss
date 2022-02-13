@@ -10,6 +10,12 @@ body {
   letter-spacing: 0.03em;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  line-height: auto;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
